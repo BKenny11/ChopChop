@@ -1,0 +1,20 @@
+//
+//  AppDelegate.h
+//  Recipies
+//
+//  Created by Brendan Kenny on 12/2/14.
+//  Copyright (c) 2014 Brendan Kenny. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+//Create Universal Properties
+@property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, retain) NSMutableArray *_tasks;
+@property (nonatomic, retain) NSMutableArray *_favorites;
+@property (nonatomic, retain) NSMutableArray *_Urls;
+
+
+@end
+
